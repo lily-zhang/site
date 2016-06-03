@@ -2,7 +2,6 @@ body {
 
 background-color: white;
 
-
 }
 
 
@@ -54,10 +53,11 @@ line-height:50%;
 }
 
 
-p.nav {
+p {
 
-font-family:Verdana;
-font-variant:small-caps;
+font-family:’Proxima Nova’;
+font-size:11px;
+font-style:normal;
 
 }
 
@@ -67,7 +67,7 @@ div.content {
 padding: 0px 10px 10px 10px;
 position:fixed;
 top: 5%;
-left: 50%;
+left: 45%;
 width:50%;
 height:80%;
 margin-top: 2.5%;
@@ -75,7 +75,7 @@ margin-left: -15%;
 overflow-x: hidden;
 overflow-y:scroll;
 text-align:center;
-font-size: 10px;
+font-size: 12px;
 
 }
 
@@ -89,8 +89,8 @@ padding: 6px 25px;
 text-align: center;
 text-decoration: none;
 display: inline-block;
-font-size:10px;
-font-family:Helvetica;
+font-size:11px;
+font-family:’Proxima Nova’;
 
 }
 
@@ -112,8 +112,6 @@ padding: 6px 6px;
 text-align: center;
 text-decoration: none;
 display: inline-block;
-font-size:10px;
-font-family:Helvetica;
 
 }
 
