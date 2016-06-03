@@ -1,6 +1,6 @@
 body {
 
-background-color: #d0e4fe;
+background-color: white;
 
 
 }
@@ -8,8 +8,8 @@ background-color: #d0e4fe;
 
 @font-face {
 
-font-family: Futura;
-src: url(   );
+font-family: ‘Proxima Nova’;
+src: url(fonts/pn_thin.otf);
 font-style:normal;
 
 }
@@ -17,8 +17,8 @@ font-style:normal;
 
 @font-face {
 
-font-family: Futura;
-src: url(   );
+font-family: ‘Proxima Nova’;
+src: url(fonts/pn_thin_italic.otf);
 font-style:italic;
 
 }
@@ -26,8 +26,8 @@ font-style:italic;
 
 @font-face {
 
-font-family: Futura;
-src: url(   );
+font-family: ‘Proxima Nova’;
+src: url(fonts/pn_bold.otf);
 font-weight:bold;
 
 }
@@ -36,8 +36,8 @@ font-weight:bold;
 #header {
 
 position: fixed;
-top:60px;
-left:70px;
+top:10%;
+left:10%;
 width:200px;
 
 }
@@ -45,10 +45,11 @@ width:200px;
 
 #nav {
 position:fixed;
-top: 200px;
-left:70px;
+top: 20%;
+left:10%;
 width:100px;
 line-height:50%;
+
 
 }
 
@@ -58,18 +59,23 @@ font-variant:small-caps;
 
 }
 
+
 div.content {
 
-top:60px;
-margin-top:60px; margin-right:auto; margin-bottom:0; margin-left:auto;
+
+padding: 0px 10px 10px 10px;
+position:fixed;
+    top: 5%;
+    left: 50%;
+    width:50%;
+    height:80%;
+    margin-top: 2.5%; /*set to a negative number 1/2 of your height*/
+    margin-left: -15%;
 overflow:scroll;
-width:600px;
-background-color:white;
+text-align:center;
 
 
-}
-
-#section {
+background-color:rgba(255,255,255,.5);
 
 font-family: Helvetica;
 font-size: 10px;
@@ -98,16 +104,38 @@ text-decoration: none;
 letter-spacing:2px;
 }
 
+a.icon:link, a.icon:visited, a.icon:active {
+    background-color: #ff99cc;
+    color: white;
+    padding: 6px 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	font-size:10px;
+font-family:Helvetica;
+
+}
+
+
+a.icon:hover {
+    color: white;
+background-color: #dddddd;
+text-decoration: none;
+letter-spacing:2px;
+}
+
 a.section:link, a.section:visited, a.section:active {
 font-weight:bold;
 text-decoration:none;
+font-variant:small-caps;
+color:black;
+padding:2px;
 
 }
 
 a.section:hover {
-color:#ff99cc;
-text-decoration:line-through;
-letter-spacing:1px;
+color:white;
+background-color:black;
 
 }
 
