@@ -7,7 +7,7 @@ background-color: white;
 
 @font-face {
 
-font-family: ‘Proxima Nova’;
+font-family: ProximaNova;
 src: url(fonts/pn_thin.otf);
 font-style:normal;
 
@@ -16,7 +16,7 @@ font-style:normal;
 
 @font-face {
 
-font-family: ‘Proxima Nova’;
+font-family: ProximaNova;
 src: url(fonts/pn_thin_italic.otf);
 font-style:italic;
 
@@ -25,7 +25,7 @@ font-style:italic;
 
 @font-face {
 
-font-family: ‘Proxima Nova’;
+font-family: ProximaNova;
 src: url(fonts/pn_bold.otf);
 font-weight:bold;
 
@@ -55,8 +55,8 @@ line-height:50%;
 
 p {
 
-font-family:’Proxima Nova’;
-font-size:11px;
+font-family:ProximaNova;
+font-size:12px;
 font-style:normal;
 
 }
@@ -90,7 +90,7 @@ text-align: center;
 text-decoration: none;
 display: inline-block;
 font-size:11px;
-font-family:’Proxima Nova’;
+font-family:ProximaNova;
 
 }
 
