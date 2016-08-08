@@ -3,17 +3,51 @@
 <body>
 <style>
 
-@font-face {
+/********** mobile style **********/
+@media only screen and (max-width: 480px) {
+    @font-face {
+    font-family: ProximaNova;
+    src: url(fonts/pn_bold.otf);
+    font-weight:bold;
+    }
+    
+    a:link, a:visited, a:active {
+    background-color: black;
+    color: white;
+    padding: 8px 27px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size:13px;
+    font-family:ProximaNova;
+    }
+    
+    a:hover {
+    color: white;
+    background-color: #ff99cc;
+    text-decoration: none;
+    }
+    
+    div.lily {
+    margin: auto;
+    text-align:center;
 
+    div.cliquer {
+    
+    img.name {
+    width:90%;
+    }
+}
+
+/********* desktop style **********/
+
+@font-face {
 font-family: ProximaNova;
 src: url(fonts/pn_bold.otf);
 font-weight:bold;
-
 }
 
-
 a:link, a:visited, a:active {
-    
 background-color: black;
 color: white;
 padding: 8px 27px;
@@ -22,27 +56,39 @@ text-decoration: none;
 display: inline-block;
 font-size:13px;
 font-family:ProximaNova;
-
 }
 
-
 a:hover {
-
 color: white;
 background-color: #ff99cc;
 text-decoration: none;
 
+div.lily {
+    position:fixed;
+    top:30%;
+    left:50%;
+    margin-left:-12%;
+
+div.cliquer {
+    position:absolute;
+    left:50%;
+    margin-left:-36%;"
+    
+img.name {
+    width:40%;
 }
+}
+
 
 </style>
 
-<div style="position:fixed;top:30%;left:50%;margin-left:-12%;"><img src="lilyheader.png" width="40%">
+<div class="lily"><img class="name" src="lilyheader.png>
 
 <br><br><br>
 
-<div style="position:absolute;left:50%;margin-left:-36%;">
-
-<a href="portraits/index.html">cliquer</a></div>
+<div class="cliquer">
+<a href="portraits/index.html">cliquer</a>
+</div>
 </div>
 
 
