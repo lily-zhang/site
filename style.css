@@ -88,6 +88,14 @@ margin-bottom:50px;
 width:60%;
 }
 
+img.illust {
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-bottom:100px;
+width:45%;
+}
+
 /* font stuff */
 
 @font-face {
