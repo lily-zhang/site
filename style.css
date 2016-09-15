@@ -22,17 +22,6 @@ margin-left: auto;
 
 }
 
-div.navWrapper {
-background-color:white;
-position: fixed;
-top: 2%;
-right: 0;
-left: 0;
-margin-right: auto;
-margin-left: auto;
-width:100%;
-}
-
 div.content {
 position:fixed;
 right: 0;
@@ -42,9 +31,7 @@ top:27%;
 margin-right: auto;
 margin-left: auto;
 width:100%;
-line-height:50%;
 overflow-y:scroll;
-min-height: 100%;
 
 }
 
