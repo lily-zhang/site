@@ -64,31 +64,16 @@ text-decoration: none;
 
 a.navcurrent:link, a.navcurreninst:visited, a.navcurrent:active, a.navcurrent:hover {
 margin: 0px 5px;
-padding: 10px 15px;
+padding: 8px 15px;
 text-align: center;
 text-decoration: none;
 display: inline-block;
 
-font-size:11px;
+font-size:12px;
 font-family:ProximaNova;
 
 background-color: #dddddd;
-color: white;
-}
-
-a.current:link, a.current:visited, a.current:active {
-font-weight:bold;
-text-decoration:none;
-color:#ff99cc;
-padding:2px;
-
-}
-
-
-a.current:hover {
-color:white;
-background-color:black;
-
+color: black;
 }
 
 img.art {
