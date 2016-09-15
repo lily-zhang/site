@@ -62,7 +62,7 @@ text-decoration: none;
 }
 
 
-a.navcurrent:link, a.navcurreninst:visited, a.navcurrent:active, a.navcurrent:hover {
+a.navcurrent:link, a.navcurrent:visited, a.navcurrent:active, a.navcurrent:hover {
 margin: 0px 5px;
 padding: 8px 15px;
 text-align: center;
@@ -74,6 +74,10 @@ font-family:ProximaNova;
 
 background-color: #dddddd;
 color: black;
+}
+
+a.navcurrent:link, a.navcurrent:visited, a.navcurrent:active, a.navcurrent:hover {
+color: white;
 }
 
 img.art {
