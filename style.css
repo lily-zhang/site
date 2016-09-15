@@ -1,188 +1,97 @@
 body {
-
 background-color: white;
-
 }
-
-
-@font-face {
-
-font-family: ProximaNova;
-src: url(fonts/pn_thin.otf);
-font-style:normal;
-
-}
-
-
-@font-face {
-
-font-family: ProximaNova;
-src: url(fonts/pn_thin_italic.otf);
-font-style:italic;
-
-}
-
-
-@font-face {
-
-font-family: ProximaNova;
-src: url(fonts/pn_bold.otf);
-font-weight:bold;
-
-}
-
 
 #header {
-
-position:fixed;
-top:10%;
-left:10%;
-width:15%;
-
+width:27%;
+right: 0;
+left: 0;
+margin-top:2%;
+margin-right: auto;
+margin-left: auto;
+margin-bottom: 1%;
 }
-
 
 #nav {
-
-position:fixed;
-top: 20%;
-left:10%;
-width:100px;
-line-height:50%;
+text-align:center;
+width:100%
+right: 0;
+left: 0;
+margin-right: auto;
+margin-left: auto;
 
 }
 
+div.navWrapper {
+background-color:white;
+position: fixed;
+top: 2%;
+right: 0;
+left: 0;
+margin-right: auto;
+margin-left: auto;
+width:100%;
+}
+
+div.content {
+position:fixed;
+right: 0;
+left: 0;
+bottom:0;
+top:27%;
+margin-right: auto;
+margin-left: auto;
+width:100%;
+line-height:50%;
+overflow-y:scroll;
+min-height: 100%;
+
+}
 
 p {
-
 font-family:ProximaNova;
 font-size:12px;
 font-style:normal;
-
 }
-
-
-div.content {
-
-padding: 0px 10px 10px 10px;
-position:fixed;
-top: 5%;
-left: 45%;
-width:50%;
-height:80%;
-margin-top: 2.5%;
-margin-left: -15%;
-overflow-x: hidden;
-overflow-y:scroll;
-text-align:center;
-font-size: 12px;
-
-}
-
-
-div.content2 {
-
-padding: 0px 10px 10px 10px;
-position:fixed;
-top: 5%;
-left: 45%;
-width:50%;
-height:80%;
-margin-top: 2.5%;
-margin-left: -15%;
-overflow-x: hidden;
-overflow-y:scroll;
-text-align:justify;
-font-size: 12px;
-
-}
-
-
 
 a.nav:link, a.nav:visited, a.nav:active {
-    
-background-color: #ff99cc;
-color: white;
-padding: 6px 25px;
+margin: 0px 5px;
+padding: 8px 15px;
 text-align: center;
 text-decoration: none;
 display: inline-block;
-font-size:11px;
+
+font-size:12px;
 font-family:ProximaNova;
 
+background-color: #ff99cc;
+color: white;
 }
-
 
 a.nav:hover {
-
 color: white;
 background-color: #dddddd;
 text-decoration: none;
-letter-spacing:2px;
-
 }
 
 
-a.navcurrent:link, a.navcurrent:visited, a.navcurrent:active, a.navcurrent:hover {
-    
-background-color: #dddddd;
-color: white;
-padding: 6px 25px;
+a.navcurrent:link, a.navcurreninst:visited, a.navcurrent:active, a.navcurrent:hover {
+margin: 0px 5px;
+padding: 10px 15px;
 text-align: center;
 text-decoration: none;
-letter-spacing:2px;
 display: inline-block;
+
 font-size:11px;
 font-family:ProximaNova;
 
-}
-
-
-a.icon:link, a.icon:visited, a.icon:active {
-
-background-color: #ff99cc;
-color: white;
-padding: 6px 6px;
-text-align: center;
-text-decoration: none;
-display: inline-block;
-
-}
-
-
-a.icon:hover {
-
-color: white;
 background-color: #dddddd;
-text-decoration: none;
-letter-spacing:2px;
-
+color: white;
 }
-
-a.section:link, a.section:visited, a.section:active {
-
-font-weight:bold;
-text-decoration:none;
-font-variant:small-caps;
-color:black;
-padding:2px;
-
-}
-
-
-a.section:hover {
-
-color:white;
-background-color:black;
-
-}
-
 
 a.current:link, a.current:visited, a.current:active {
-
 font-weight:bold;
 text-decoration:none;
-font-variant:small-caps;
 color:#ff99cc;
 padding:2px;
 
@@ -190,9 +99,35 @@ padding:2px;
 
 
 a.current:hover {
-
 color:white;
 background-color:black;
 
 }
 
+img.art {
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-bottom:50px;
+width:60%;
+}
+
+/* font stuff */
+
+@font-face {
+font-family: ProximaNova;
+src: url(fonts/pn_thin.otf);
+font-style:normal;
+}
+
+@font-face {
+font-family: ProximaNova;
+src: url(fonts/pn_thin_italic.otf);
+font-style:italic;
+}
+
+@font-face {
+font-family: ProximaNova;
+src: url(fonts/pn_bold.otf);
+font-weight:bold;
+}
