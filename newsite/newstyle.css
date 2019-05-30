@@ -1,5 +1,5 @@
 body {
-background-color: white;
+background-color: #C8D9BF;
 }
 
 /* #header {
@@ -37,6 +37,12 @@ overflow-y:scroll;
 p {
 font-family:Courier New;
 font-size:12px;
+font-style:normal;
+}
+
+h1 {
+font-family:Courier;
+font-size:18px;
 font-style:normal;
 }
 
