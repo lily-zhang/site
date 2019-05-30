@@ -35,7 +35,7 @@ overflow-y:scroll;
 }
 
 p {
-font-family:Courier-New;
+font-family:Courier New;
 font-size:12px;
 font-style:normal;
 }
@@ -97,7 +97,7 @@ width:45%;
 
 /* font stuff */
 
-@font-face {
+/* @font-face {
 font-family: ProximaNova;
 src: url(fonts/pn_thin.otf);
 font-style:normal;
@@ -113,4 +113,4 @@ font-style:italic;
 font-family: ProximaNova;
 src: url(fonts/pn_bold.otf);
 font-weight:bold;
-} */
+} */ */
