@@ -46,6 +46,12 @@ font-size:18px;
 font-style:normal;
 }
 
+h2 {
+font-family:Courier;
+font-size:16px;
+font-style:normal;
+}
+
 /* a.nav:link, a.nav:visited, a.nav:active {
 margin: 0px 5px;
 padding: 8px 15px;
