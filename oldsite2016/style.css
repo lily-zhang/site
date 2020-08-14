@@ -1,0 +1,117 @@
+body {
+background-color: white;
+}
+
+#header {
+width:27%;
+right: 0;
+left: 0;
+margin-top:2%;
+margin-right: auto;
+margin-left: auto;
+margin-bottom: 1%;
+}
+
+#nav {
+text-align:center;
+width:100%
+right: 0;
+left: 0;
+margin-right: auto;
+margin-left: auto;
+
+}
+
+div.content {
+position:fixed;
+right: 0;
+left: 0;
+bottom:0;
+top:25%;
+margin-right: auto;
+margin-left: auto;
+width:100%;
+overflow-y:scroll;
+
+}
+
+p {
+font-family:ProximaNova;
+font-size:12px;
+font-style:normal;
+}
+
+a.nav:link, a.nav:visited, a.nav:active {
+margin: 0px 5px;
+padding: 8px 15px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+
+font-size:12px;
+font-family:ProximaNova;
+
+background-color: #ff99cc;
+color: white;
+}
+
+a.nav:hover {
+color: white;
+background-color: #dddddd;
+text-decoration: none;
+}
+
+
+a.navcurrent:link, a.navcurrent:visited, a.navcurrent:active {
+margin: 0px 5px;
+padding: 8px 15px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+
+font-size:12px;
+font-family:ProximaNova;
+
+background-color: #dddddd;
+color: black;
+}
+
+a.navcurrent:hover {
+color: white;
+}
+
+img.art {
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-bottom:50px;
+width:60%;
+}
+
+img.illust {
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-bottom:100px;
+width:45%;
+}
+
+/* font stuff */
+
+@font-face {
+font-family: ProximaNova;
+src: url(fonts/pn_thin.otf);
+font-style:normal;
+}
+
+@font-face {
+font-family: ProximaNova;
+src: url(fonts/pn_thin_italic.otf);
+font-style:italic;
+}
+
+@font-face {
+font-family: ProximaNova;
+src: url(fonts/pn_bold.otf);
+font-weight:bold;
+}
