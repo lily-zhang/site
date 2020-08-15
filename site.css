@@ -214,8 +214,10 @@ ul.content-text a:hover {
 
 #mobile_display {
    display: none;
+   padding: 8vh;
    font-family: Fairfield;
-   font-size: 3em;
+   font-size: 10vh;
+   text-align: center;
 }
 
 @media screen and (max-device-width: 480px), (max-width: 640px) {
