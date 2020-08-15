@@ -1,0 +1,29 @@
+@media screen and (max-width: 481px){
+
+#nav_icon {
+   display:none;
+}
+
+#nav_title {
+   position: fixed;
+   top: 0px;
+   margin-bottom: 10px;
+   height: 20px;
+}
+
+#nav_menu {
+   position: fixed;
+   top: 20px;
+   margin-bottom: 10px;
+   display: flex;
+   flex-direction: row;
+}
+
+#content {
+   top: 40px;
+   width: 100%;
+   height: 100%;
+}
+
+
+}

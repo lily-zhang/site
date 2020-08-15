@@ -103,8 +103,10 @@ function render_thumbnails(obj, album_name, klass) {
 
 $(document).ready(function() {
 
-   $('#content').css('display', 'flex');
-   $('#content').css('flex-direction', 'row');
+   if($('#nav_icon').css('display') != 'none') {
+      $('#content').css('display', 'flex');
+      $('#content').css('flex-direction', 'row');
+   }
 
    // Populate album menu
    $('#album_menu').append(render_albums(photos, 'album_item'));

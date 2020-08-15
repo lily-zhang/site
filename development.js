@@ -17,8 +17,10 @@ function render_menu_items(obj, klass) {
 
 $(document).ready(function() {
 
-   $('#content').css('display', 'flex');
-   $('#content').css('flex-direction', 'row');
+   if($('#nav_icon').css('display') != 'none') {
+      $('#content').css('display', 'flex');
+      $('#content').css('flex-direction', 'row');
+   }
 
    // Populate writing menu
    $('#writing_menu').append('<h1>Web</h1>');
