@@ -218,7 +218,7 @@ ul.content-text a:hover {
    font-size: 3em;
 }
 
-@media screen and (max-device-width: 480px) and , (max-width: 640px) {
+@media screen and (max-device-width: 480px), (max-width: 640px) {
    #nav_container, #content {
       display:none;
    }
