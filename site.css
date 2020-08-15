@@ -211,3 +211,19 @@ ul.content-text a:hover {
    font-family: BankPrinter;
    src: url(fonts/bank-printer.otf);
 }
+
+#mobile_display {
+   display: none;
+   font-family: Fairfield;
+   font-size: 3em;
+}
+
+@media screen and (max-device-width: 480px) and , (max-width: 640px) {
+   #nav_container, #content {
+      display:none;
+   }
+
+   #mobile_display {
+      display:block;
+   }
+}
