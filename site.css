@@ -212,7 +212,7 @@ ul.content-text a:hover {
    src: url(fonts/bank-printer.otf);
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-device-width: 770px), (max-width: 640px) {
 
 #nav_container {
    top: 0px;

@@ -10,12 +10,6 @@ $(document).ready(function() {
 
    document.title = 'Lily Zhang';
    $('#nav_title').text('Lily Zhang');
-
-   $( "span#res" ).text(window.innerWidth);
-
-   $( window ).resize(function() {
-     $( "span#res" ).text(window.innerWidth);
-   });
 });
 
 function render_links(obj, klass) {
