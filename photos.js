@@ -44,7 +44,7 @@ var photos = {
       'campus - 32.jpg' : ''
    },
    'Travels' : {
-      'travels - 1.jpg' : 'Driving the perimeter of Oahu',
+      'travels - 1.jpg' : 'Driving around Oahu',
       'travels - 2.jpg' : '',
       'travels - 3.jpg' : '',
       'travels - 4.jpg' : '',

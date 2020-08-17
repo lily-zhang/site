@@ -1,6 +1,6 @@
 var pages = {
    'About' : 'index.html',
-   'Drawing' : 'desseins.html',
+   'Drawing' : 'drawing.html',
    'Photography' : 'photos.html',
    'Development' : 'development.html'
 }
