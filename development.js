@@ -1,7 +1,7 @@
 var web_design = {
    'Import GUI' : 'import_gui.html',
-   'Dashboard' : 'dashboard.html',
-   'Release Info' : 'version_info.html'
+   'Dashboard' : 'dashboard.html'
+   // 'Release Info' : 'version_info.html'
 }
 
 var mobile_dev = {
