@@ -1,9 +1,9 @@
 var drawings = {
    'Portraiture' : {
-      'slumber.png' : '',
       'l2.jpg' : '',
       'l.jpg' : '',
       'el greco 1.jpg' : '',
+      'slumber.png' : '',
       'sculpture.jpg' : '',
       'jane.jpg' : ''
    },

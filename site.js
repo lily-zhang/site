@@ -2,7 +2,7 @@ var pages = {
    'About' : 'index.html',
    'Drawing' : 'drawing.html',
    'Photography' : 'photos.html',
-   'Development' : 'development.html'
+   'Web Design' : 'development.html'
 }
 
 $(document).ready(function() {
