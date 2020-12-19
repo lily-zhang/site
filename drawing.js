@@ -1,9 +1,15 @@
 var drawings = {
    'Portraiture' : {
+      'baroque_sculpture.jpg' : '',
+      'rodin_bust.jpg' : '',
+      'rodin_bust_2.jpg' : '',
+      'rodin_bust_3.jpg' : '',
+      'van_dyke.jpg' : '',
       'l2.jpg' : '',
       'l.jpg' : '',
       'el greco 1.jpg' : '',
       'slumber.png' : '',
+      'rodin_mother.jpg' : '',
       'sculpture.jpg' : '',
       'jane.jpg' : ''
    },
